@@ -1,0 +1,5 @@
+*.swp
+
+# ignore whatever other crap i throw in here apart from what i actually want
+assets/*
+!assets/favicon.png
