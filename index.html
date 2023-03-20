@@ -1,7 +1,8 @@
 <head>
-<meta charset="utf-8" />
-<title>emily.ly</title>
-<link rel="icon" type="image/png" href="assets/favicon.png">
+    <meta charset="utf-8" />
+    <title>emily.ly</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 
 <style>
@@ -9,12 +10,22 @@ body {
     background-color: #f5c3cb;
 }
 h1 {
-    text-align: center;
-    font-size: 16vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 </style>
 
-<h1>
-&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;
-&#x1F970;
-</h1>
+<body>
+    <h1>
+        &#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;
+        &#x1F970;
+    </h1>
+</body>
+
+<script>
+    twemoji.size = "72x72";
+    twemoji.parse(document.body);
+</script>
